@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-image: url(https://rb.gy/lmuewm);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 0rem 15.2rem 19.5rem 8rem;
+  height: 50%;
+}
+
+
+nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0rem calc((100vh - 1300px) / 2);
+}
+
+img{
+  margin-left: 5rem;
+}
+
+nav a{
+  padding: 0 0.5rem;
+  margin-left: 2rem;
+  align-items: flex-end;
+  color: white;
+}
+
+hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  padding-top: 3rem;
+}
+
+header{
+  color: #ffffff;
+  flex-shrink: 0;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 0.9375;
+  margin-bottom: 2.8rem;
+  max-width: 40.8rem;
+  padding-top: 80px;
+  }
+
+  p {
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: Javanese Text, 'Source Sans Pro';
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 0.875;
+    margin-bottom: 0.5rem;
+    max-width: 32.2rem;
+  }
+
+
+  header, p, button{
+    margin-left: 8rem;  
+  }
+
+
+  button{
+    width: 6rem;
+    border-radius: 20px;
+    height: 2rem;
+    border: none;
+    font-weight: bold;
+  }
+
+  column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2rem;
+  }
