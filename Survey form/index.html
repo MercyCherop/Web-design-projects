@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  <title>Education Center Survey</title>
+</head>
+<body>
+  <h1 id="title">Education Center Survey</h1>
+  <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+  <p id="description">Thank you for taking the time to fill out our survey. Your feedback is important to us and will be used to improve our education center. Please answer the following questions to the best of your ability.</p>
+  <form id="survey-form">
+    <label id="name-label" for="name" >Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+    <label id="email-label" for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+    <label id="number-label" for="number">Number of years attending education center:</label><br>
+    <input type="number" id="number" name="number" placeholder="Enter a number" min="0" max="10" required><br><br>
+    <label for="dropdown">What is your primary reason for attending the education center?</label><br>
+    <select id="dropdown" name="dropdown">
+      <option value="personal-development">Personal Development</option>
+      <option value="career-advancement">Career Advancement</option>
+    </select><br><br>
+   
+<fieldset> <p>Would you recommend us to a friend</p> 
+
+        <label for="Definitely">
+      <input type="radio" value="1" checked name="referrals" id="definitely" class="inline"/>Definitely</label>
+
+        <label for="maybe"><input type="radio" value="2" name="referrals" id="maybe" class="inline" checked/>Maybe</label>
+
+        <label for="prefer-not-to-say"> <input type="radio" value="3" name="referrals" id="prefer-not-to-say" class="inline" checked/>Prefer not to say</label>
+
+        </fieldset>
+        <fieldset>
+           <p>What would you like to see improved?</p>
+          <label for="lesson-delivery"><input type="checkbox" value="1" name="lesson-delivery" id="lesson-delivery" class="inline" required/> Lesson-delivery</label>
+          <label for="student-resources"><input type="checkbox" value="2" name="student-resources" id="back-end" class="inline required"/>Student resources</label>
+          <label for="study spaces"> <input type="checkbox" value="3" name="study-spaces" id="study spaces" class="inline" required/>Study spaces</label>
+        </fieldset>
+      <label for="suggestions"> Any comments or suggestions? <textarea id="suggestions" name="suggestions" rows="3" cols="30" placeholder="enter your comments here"></textarea> </label>
+        </fieldset>
+         <input type="submit" id="submit" value="Submit" />
+
+</form>
+</body>
+</html>
